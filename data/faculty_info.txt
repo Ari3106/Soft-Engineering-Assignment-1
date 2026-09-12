@@ -1,0 +1,47 @@
+# ============================================================================
+# FACULTY / PROFESSOR INFORMATION INPUT FILE
+#
+# Format (pipe-delimited, one faculty member per line):
+#   Instructor|Department|WeeklyOfficeHours|OfficeRoom|PreferredDays
+#
+#   WeeklyOfficeHours : total required office hours per week (whole hours).
+#                        Set here as roughly 2 hours per course section taught
+#                        (minimum 3), a common adjunct-faculty policy.
+#   PreferredDays     : any combination of M T W R F (R = Thursday); used as
+#                        a fallback ONLY if the instructor's teaching days do
+#                        not leave enough free time to meet WeeklyOfficeHours
+#
+# Every instructor who appears in data/class_schedule.txt has an entry here,
+# and every entry here lists ALL of that instructor's course sections in the
+# schedule file -- not just one.
+#
+# Lines starting with '#' and blank lines are ignored.
+# ============================================================================
+
+Adedoyin, Anthony|Computer Technology|6|CS201|MTWRF
+Agboli, P.|Computer Technology|4|CS202|MTWRF
+Baptiste, R.|Computer Technology|6|CS203|MTWRF
+Bemley|Computer Technology|3|CS204|MTWRF
+Bemley, J|Computer Technology|3|CS205|MTWRF
+Bemley, Jesse|Computer Technology|3|CS206|MTWRF
+Agada, Ruth|Computer Technology|6|CS207|MTWRF
+Bright, Marvin|Computer Technology|4|CS208|MTWRF
+Carter, Adrian D.|Computer Technology|6|CS209|MTWRF
+Chery, Pierrot|Computer Technology|6|CS210|MTWRF
+Deal, Shawn|Computer Technology|3|CS211|MTWRF
+Dixon, Carl|Computer Technology|4|CS212|MTWRF
+Dr. Stone, D. B.|Computer Technology|4|CS213|MTWRF
+Harris, Eugene T.|Computer Technology|4|CS214|MTWRF
+Francis, Wilbert R.|Computer Technology|3|CS215|MTWRF
+Cooper, Henri E.|Computer Technology|3|CS216|MTWRF
+Bengesi, Staphord|Computer Technology|6|CS217|MTWRF
+Lamar, Courtney|Computer Technology|3|CS218|MTWRF
+Miller, Stephanie R.|Computer Technology|3|CS219|MTWRF
+Njeh, Felix|Computer Technology|3|CS220|MTWRF
+Okonofua, Henry|Computer Technology|4|CS221|MTWRF
+Roberts, Curtis|Computer Technology|6|CS222|MTWRF
+Tolbert, Brett|Computer Technology|4|CS223|MTWRF
+Dali, Loubna|Computer Technology|4|CS224|MTWRF
+Vega, J.|Computer Technology|6|CS225|MTWRF
+Lee, Victoria|Computer Technology|3|CS226|MTWRF
+Wilson, Marcella J.|Computer Technology|8|CS227|MTWRF

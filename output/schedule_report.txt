@@ -1,0 +1,553 @@
+================================================================
+           FACULTY TEACHING & OFFICE HOURS SCHEDULE
+================================================================
+
+----------------------------------------------------------------
+Adedoyin, Anthony  (Computer Technology)
+Office: CS201
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC350.170 Prin & Meth of Intru Det & Pre         MW 4:00 PM - 6:50 PM 108     
+  CTEC350.180 Prin & Meth of Intru Det & Pre         MW 4:00 PM - 6:50 PM 108     
+  CTEC435.170 UNIX System Administration             MW 7:00 PM - 9:50 PM 108     
+
+  OFFICE HOURS  (6 of 6 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      2:00 PM - 4:00 PM (CTEC350.170)
+    Tuesday     8:00 AM - 10:00 AM
+    Wednesday   2:00 PM - 4:00 PM (CTEC350.170)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Agboli, P.  (Computer Technology)
+Office: CS202
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC120.171 Prin of SecureCoding Using Java        MW 5:00 PM - 7:00 PM 201     
+  CTEC300.170 Database Architecture                  MW 7:00 PM - 9:50 PM 112     
+
+  OFFICE HOURS  (4 of 4 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      3:00 PM - 5:00 PM (CTEC120.171)
+    Tuesday     --
+    Wednesday   3:00 PM - 5:00 PM (CTEC120.171)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Baptiste, R.  (Computer Technology)
+Office: CS203
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC214.180 Client Operating Systems               TR 12:00 PM - 3:40 PM 109     
+  CTEC302.170 Computer Networking                    TR 4:00 PM - 6:50 PM Dept    
+  CTEC302.180 Computer Networking                    TR 4:00 PM - 6:50 PM 111     
+
+  OFFICE HOURS  (6 of 6 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      8:00 AM - 10:00 AM
+    Tuesday     10:00 AM - 12:00 PM (CTEC214.180)
+    Wednesday   --
+    Thursday    10:00 AM - 12:00 PM (CTEC214.180)
+    Friday      --
+
+----------------------------------------------------------------
+Bemley  (Computer Technology)
+Office: CS204
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC128.170 Discrete Structures - Big Data         TR 12:00 PM - 2:50 PM Online  
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      --
+    Tuesday     10:00 AM - 12:00 PM (CTEC128.170)
+              &  2:50 PM - 3:50 PM (CTEC128.170)
+    Wednesday   --
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Bemley, J  (Computer Technology)
+Office: CS205
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC298.180 Symbolic Computation use BigData       TR 4:00 PM - 6:50 PM 108     
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      --
+    Tuesday     2:00 PM - 4:00 PM (CTEC298.180)
+    Wednesday   --
+    Thursday    3:00 PM - 4:00 PM (CTEC298.180)
+    Friday      --
+
+----------------------------------------------------------------
+Bemley, Jesse  (Computer Technology)
+Office: CS206
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC671.555 Smart Integrated Systems               TR 4:00 PM - 6:50 PM Online  
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      --
+    Tuesday     2:00 PM - 4:00 PM (CTEC671.555)
+    Wednesday   --
+    Thursday    3:00 PM - 4:00 PM (CTEC671.555)
+    Friday      --
+
+----------------------------------------------------------------
+Agada, Ruth  (Computer Technology)
+Office: CS207
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC711.555 IoT Capstone I                         MWF 5:00 PM - 5:50 PM Online  
+  CTEC402.180 Software and OS Security               MW 7:00 PM - 9:50 PM Online  
+  CTEC435.180 UNIX System Administration             MW 7:00 PM - 9:50 PM 108     
+
+  OFFICE HOURS  (6 of 6 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      3:00 PM - 5:00 PM (CTEC711.555)
+              &  5:50 PM - 7:00 PM (CTEC711.555)
+    Tuesday     --
+    Wednesday   3:00 PM - 5:00 PM (CTEC711.555)
+              &  5:50 PM - 6:40 PM (CTEC711.555)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Bright, Marvin  (Computer Technology)
+Office: CS208
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC720.555 Master's Thesis Research I             MW 7:00 PM - 9:50 PM Online  
+  CTEC721.555 Master's Thesis Research II            TR 7:00 PM - 9:50 PM Online  
+
+  OFFICE HOURS  (4 of 4 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      5:00 PM - 7:00 PM (CTEC720.555)
+    Tuesday     5:00 PM - 7:00 PM (CTEC721.555)
+    Wednesday   --
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Carter, Adrian D.  (Computer Technology)
+Office: CS209
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC424.555 Database Administration                TR 7:00 PM - 9:50 PM Online  
+  CTEC445.170 Fund of Cryptography & Applica         MW 4:00 PM - 6:50 PM 111     
+  CTEC450.170 Case Studies in Comp Security          MW 7:00 PM - 9:50 PM 111     
+
+  OFFICE HOURS  (6 of 6 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      2:00 PM - 4:00 PM (CTEC445.170)
+    Tuesday     5:00 PM - 7:00 PM (CTEC424.555)
+    Wednesday   2:00 PM - 4:00 PM (CTEC445.170)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Chery, Pierrot  (Computer Technology)
+Office: CS210
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC305.170 Server Administration I                TR 4:00 PM - 6:50 PM Dept    
+  CTEC305.180 Server Administration I                TR 4:00 PM - 6:50 PM 109     
+  CTEC405.170 Server Administration II               TR 7:00 PM - 9:50 PM 109     
+
+  OFFICE HOURS  (6 of 6 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      8:00 AM - 10:00 AM
+    Tuesday     2:00 PM - 4:00 PM (CTEC305.170)
+    Wednesday   --
+    Thursday    2:00 PM - 4:00 PM (CTEC305.170)
+    Friday      --
+
+----------------------------------------------------------------
+Deal, Shawn  (Computer Technology)
+Office: CS211
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC226.180 Intro To Db Development                TR 7:00 PM - 9:50 PM 116     
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      --
+    Tuesday     5:00 PM - 7:00 PM (CTEC226.180)
+    Wednesday   --
+    Thursday    6:00 PM - 7:00 PM (CTEC226.180)
+    Friday      --
+
+----------------------------------------------------------------
+Dixon, Carl  (Computer Technology)
+Office: CS212
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC294.170 PC Architecture                        MW 4:00 PM - 6:50 PM 112     
+  CTEC294.180 PC Architecture                        MW 4:00 PM - 6:50 PM 112     
+
+  OFFICE HOURS  (4 of 4 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      2:00 PM - 4:00 PM (CTEC294.170)
+    Tuesday     --
+    Wednesday   2:00 PM - 4:00 PM (CTEC294.170)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Dr. Stone, D. B.  (Computer Technology)
+Office: CS213
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC120.170 Prin of SecureCoding Using Java        MW 12:00 PM - 2:00 PM 116     
+  CTEC324.555 Database Appl Dev                      MW 4:00 PM - 6:50 PM Online  
+
+  OFFICE HOURS  (4 of 4 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      10:00 AM - 12:00 PM (CTEC120.170)
+              &  2:00 PM - 4:00 PM (CTEC120.170)
+    Tuesday     --
+    Wednesday   --
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Harris, Eugene T.  (Computer Technology)
+Office: CS214
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC111.172 Cybersecurity for All                  TR 8:00 AM - 10:50 AM 111     
+  CTEC114.172 Comp Tools & Environ                   TR 4:00 PM - 6:50 PM 114     
+
+  OFFICE HOURS  (4 of 4 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      --
+    Tuesday     10:50 AM - 12:50 PM (CTEC111.172)
+              &  2:00 PM - 4:00 PM (CTEC114.172)
+    Wednesday   --
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Francis, Wilbert R.  (Computer Technology)
+Office: CS215
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC475.180 Cloud Computing                        MW 7:00 PM - 9:50 PM 114     
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      5:00 PM - 7:00 PM (CTEC475.180)
+    Tuesday     --
+    Wednesday   6:00 PM - 7:00 PM (CTEC475.180)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Cooper, Henri E.  (Computer Technology)
+Office: CS216
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC111.173 Cybersecurity for All                  MW 4:00 PM - 6:50 PM Online  
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      2:00 PM - 4:00 PM (CTEC111.173)
+    Tuesday     --
+    Wednesday   3:00 PM - 4:00 PM (CTEC111.173)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Bengesi, Staphord  (Computer Technology)
+Office: CS217
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC111.171 Cybersecurity for All                  MW 8:00 AM - 10:50 AM Online  
+  CTEC402.170 Software and OS Security               MW 7:00 PM - 9:50 PM Online  
+  CTEC445.180 Fund of Cryptography & Applica         MW 4:00 PM - 6:50 PM 109     
+
+  OFFICE HOURS  (6 of 6 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      10:50 AM - 12:50 PM (CTEC111.171)
+              &  2:00 PM - 4:00 PM (CTEC445.180)
+    Tuesday     --
+    Wednesday   10:50 AM - 12:50 PM (CTEC111.171)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Lamar, Courtney  (Computer Technology)
+Office: CS218
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC393.555 Internet Prog II                       MW 4:00 PM - 6:50 PM Online  
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      2:00 PM - 4:00 PM (CTEC393.555)
+    Tuesday     --
+    Wednesday   3:00 PM - 4:00 PM (CTEC393.555)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Miller, Stephanie R.  (Computer Technology)
+Office: CS219
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC426.170 Expert Systems Using Big Data          MW 7:00 PM - 9:50 PM 114     
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      5:00 PM - 7:00 PM (CTEC426.170)
+    Tuesday     --
+    Wednesday   6:00 PM - 7:00 PM (CTEC426.170)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Njeh, Felix  (Computer Technology)
+Office: CS220
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC651.555 Internet of Things of Digital Res      MW 4:00 PM - 6:50 PM Online  
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      2:00 PM - 4:00 PM (CTEC651.555)
+    Tuesday     --
+    Wednesday   3:00 PM - 4:00 PM (CTEC651.555)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Okonofua, Henry  (Computer Technology)
+Office: CS221
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC410.170 Internet Technology                    TR 4:00 PM - 6:50 PM 201     
+  CTEC410.180 Internet Technology                    TR 4:00 PM - 6:50 PM 201     
+
+  OFFICE HOURS  (4 of 4 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      --
+    Tuesday     2:00 PM - 4:00 PM (CTEC410.170)
+    Wednesday   --
+    Thursday    2:00 PM - 4:00 PM (CTEC410.170)
+    Friday      --
+
+----------------------------------------------------------------
+Roberts, Curtis  (Computer Technology)
+Office: CS222
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC222.170 Linux Operating System                 TR 7:00 PM - 9:50 PM 108     
+  CTEC335.170 Network Protocols (TCP/IP)             TR 4:00 PM - 6:50 PM 116     
+  CTEC335.180 Network Protocols (TCP/IP)             TR 4:00 PM - 6:50 PM 116     
+
+  OFFICE HOURS  (6 of 6 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      8:00 AM - 10:00 AM
+    Tuesday     2:00 PM - 4:00 PM (CTEC335.170)
+    Wednesday   --
+    Thursday    2:00 PM - 4:00 PM (CTEC335.170)
+    Friday      --
+
+----------------------------------------------------------------
+Tolbert, Brett  (Computer Technology)
+Office: CS223
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC345.170 Found of Comp and Network Secu         MW 5:00 PM - 7:50 PM 109     
+  CTEC345.180 Found of Comp and Network Secu         MW 5:00 PM - 7:50 PM 111     
+
+  OFFICE HOURS  (4 of 4 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      3:00 PM - 5:00 PM (CTEC345.170)
+    Tuesday     --
+    Wednesday   3:00 PM - 5:00 PM (CTEC345.170)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Dali, Loubna  (Computer Technology)
+Office: CS224
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC450.180 Case Studies in Comp Security          MW 7:00 PM - 9:50 PM 111     
+  CTEC111.170 Cybersecurity for All                  TR 9:00 AM - 11:50 AM Online  
+
+  OFFICE HOURS  (4 of 4 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      5:00 PM - 7:00 PM (CTEC450.180)
+    Tuesday     8:00 AM - 9:00 AM (CTEC111.170)
+              &  11:50 AM - 12:50 PM (CTEC111.170)
+    Wednesday   --
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Vega, J.  (Computer Technology)
+Office: CS225
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC220.170 Adv Secure Coding Using Java           MW 11:00 AM - 1:50 PM 114     
+  CTEC220.180 Adv Secure Coding Using Java           MW 11:00 AM - 1:50 PM 114     
+  CTEC230.180 Application of Data Structures         MW 4:00 PM - 6:50 PM 114     
+
+  OFFICE HOURS  (6 of 6 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      9:00 AM - 11:00 AM (CTEC220.170)
+              &  1:50 PM - 3:50 PM (CTEC220.180)
+    Tuesday     --
+    Wednesday   9:00 AM - 11:00 AM (CTEC220.170)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Lee, Victoria  (Computer Technology)
+Office: CS226
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC114.170 Comp Tools & Environ                   MW 4:00 PM - 6:50 PM 116     
+
+  OFFICE HOURS  (3 of 3 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      2:00 PM - 4:00 PM (CTEC114.170)
+    Tuesday     --
+    Wednesday   3:00 PM - 4:00 PM (CTEC114.170)
+    Thursday    --
+    Friday      --
+
+----------------------------------------------------------------
+Wilson, Marcella J.  (Computer Technology)
+Office: CS227
+----------------------------------------------------------------
+
+CLASS SCHEDULE
+  Course     Title                                  Times              Room    
+  ------     -----                                  -----              ----    
+  CTEC128.180 Discrete Structures - Big Data         TR 4:00 PM - 6:50 PM Online  
+  CTEC230.170 Application of Data Structures         TR 11:00 AM - 2:40 PM 114     
+  CTEC293.170 Edge Technology                        MW 4:00 PM - 6:50 PM 114     
+  CTEC415.180 Edge Computing                         TR 10:00 AM - 12:50 PM 114     
+
+  OFFICE HOURS  (8 of 8 required hours/week scheduled)
+  NOTE: Instructors are not to be interrupted during class times.
+
+    Monday      2:00 PM - 4:00 PM (CTEC293.170)
+    Tuesday     8:00 AM - 10:00 AM (CTEC415.180)
+              &  2:40 PM - 4:00 PM (CTEC230.170)
+    Wednesday   2:00 PM - 4:00 PM (CTEC293.170)
+    Thursday    9:20 AM - 10:00 AM (CTEC415.180)
+    Friday      --
+

@@ -1,0 +1,100 @@
+# ============================================================================
+# CLASS SCHEDULE INPUT FILE
+#
+# Format (pipe-delimited, one course section per line):
+#   CourseCode|CourseTitle|Instructor|Days|StartTime|EndTime|Room
+#
+#   Days      : any combination of M T W R F  (R = Thursday)
+#   StartTime : 24-hour HH:MM
+#   EndTime   : 24-hour HH:MM
+#
+# Lines starting with '#' and blank lines are ignored.
+#
+# Adapted from the CTEC Fall 2026 course schedule. Every section is listed
+# for every instructor below (not just one course each), so an instructor
+# teaching multiple sections gets office hours around ALL of their classes.
+# Two purely-online asynchronous sections (CTEC 125.555 / 125.556, no fixed
+# meeting day or time) are intentionally omitted -- there is nothing to
+# schedule office hours around for a course with no class time.
+# ============================================================================
+
+CTEC350.170|Prin & Meth of Intru Det & Pre|Adedoyin, Anthony|MW|16:00|18:50|108
+CTEC350.180|Prin & Meth of Intru Det & Pre|Adedoyin, Anthony|MW|16:00|18:50|108
+CTEC435.170|UNIX System Administration|Adedoyin, Anthony|MW|19:00|21:50|108
+
+CTEC120.171|Prin of SecureCoding Using Java|Agboli, P.|MW|17:00|19:00|201
+CTEC300.170|Database Architecture|Agboli, P.|MW|19:00|21:50|112
+
+CTEC214.180|Client Operating Systems|Baptiste, R.|TR|12:00|15:40|109
+CTEC302.170|Computer Networking|Baptiste, R.|TR|16:00|18:50|Dept
+CTEC302.180|Computer Networking|Baptiste, R.|TR|16:00|18:50|111
+
+CTEC128.170|Discrete Structures - Big Data|Bemley|TR|12:00|14:50|Online
+
+CTEC298.180|Symbolic Computation use BigData|Bemley, J|TR|16:00|18:50|108
+
+CTEC671.555|Smart Integrated Systems|Bemley, Jesse|TR|16:00|18:50|Online
+
+CTEC711.555|IoT Capstone I|Agada, Ruth|MWF|17:00|17:50|Online
+CTEC402.180|Software and OS Security|Agada, Ruth|MW|19:00|21:50|Online
+CTEC435.180|UNIX System Administration|Agada, Ruth|MW|19:00|21:50|108
+
+CTEC720.555|Master's Thesis Research I|Bright, Marvin|MW|19:00|21:50|Online
+CTEC721.555|Master's Thesis Research II|Bright, Marvin|TR|19:00|21:50|Online
+
+CTEC424.555|Database Administration|Carter, Adrian D.|TR|19:00|21:50|Online
+CTEC445.170|Fund of Cryptography & Applica|Carter, Adrian D.|MW|16:00|18:50|111
+CTEC450.170|Case Studies in Comp Security|Carter, Adrian D.|MW|19:00|21:50|111
+
+CTEC305.170|Server Administration I|Chery, Pierrot|TR|16:00|18:50|Dept
+CTEC305.180|Server Administration I|Chery, Pierrot|TR|16:00|18:50|109
+CTEC405.170|Server Administration II|Chery, Pierrot|TR|19:00|21:50|109
+
+CTEC226.180|Intro To Db Development|Deal, Shawn|TR|19:00|21:50|116
+
+CTEC294.170|PC Architecture|Dixon, Carl|MW|16:00|18:50|112
+CTEC294.180|PC Architecture|Dixon, Carl|MW|16:00|18:50|112
+
+CTEC120.170|Prin of SecureCoding Using Java|Dr. Stone, D. B.|MW|12:00|14:00|116
+CTEC324.555|Database Appl Dev|Dr. Stone, D. B.|MW|16:00|18:50|Online
+
+CTEC111.172|Cybersecurity for All|Harris, Eugene T.|TR|08:00|10:50|111
+CTEC114.172|Comp Tools & Environ|Harris, Eugene T.|TR|16:00|18:50|114
+
+CTEC475.180|Cloud Computing|Francis, Wilbert R.|MW|19:00|21:50|114
+
+CTEC111.173|Cybersecurity for All|Cooper, Henri E.|MW|16:00|18:50|Online
+
+CTEC111.171|Cybersecurity for All|Bengesi, Staphord|MW|08:00|10:50|Online
+CTEC402.170|Software and OS Security|Bengesi, Staphord|MW|19:00|21:50|Online
+CTEC445.180|Fund of Cryptography & Applica|Bengesi, Staphord|MW|16:00|18:50|109
+
+CTEC393.555|Internet Prog II|Lamar, Courtney|MW|16:00|18:50|Online
+
+CTEC426.170|Expert Systems Using Big Data|Miller, Stephanie R.|MW|19:00|21:50|114
+
+CTEC651.555|Internet of Things of Digital Res|Njeh, Felix|MW|16:00|18:50|Online
+
+CTEC410.170|Internet Technology|Okonofua, Henry|TR|16:00|18:50|201
+CTEC410.180|Internet Technology|Okonofua, Henry|TR|16:00|18:50|201
+
+CTEC222.170|Linux Operating System|Roberts, Curtis|TR|19:00|21:50|108
+CTEC335.170|Network Protocols (TCP/IP)|Roberts, Curtis|TR|16:00|18:50|116
+CTEC335.180|Network Protocols (TCP/IP)|Roberts, Curtis|TR|16:00|18:50|116
+
+CTEC345.170|Found of Comp and Network Secu|Tolbert, Brett|MW|17:00|19:50|109
+CTEC345.180|Found of Comp and Network Secu|Tolbert, Brett|MW|17:00|19:50|111
+
+CTEC450.180|Case Studies in Comp Security|Dali, Loubna|MW|19:00|21:50|111
+CTEC111.170|Cybersecurity for All|Dali, Loubna|TR|09:00|11:50|Online
+
+CTEC220.170|Adv Secure Coding Using Java|Vega, J.|MW|11:00|13:50|114
+CTEC220.180|Adv Secure Coding Using Java|Vega, J.|MW|11:00|13:50|114
+CTEC230.180|Application of Data Structures|Vega, J.|MW|16:00|18:50|114
+
+CTEC114.170|Comp Tools & Environ|Lee, Victoria|MW|16:00|18:50|116
+
+CTEC128.180|Discrete Structures - Big Data|Wilson, Marcella J.|TR|16:00|18:50|Online
+CTEC230.170|Application of Data Structures|Wilson, Marcella J.|TR|11:00|14:40|114
+CTEC293.170|Edge Technology|Wilson, Marcella J.|MW|16:00|18:50|114
+CTEC415.180|Edge Computing|Wilson, Marcella J.|TR|10:00|12:50|114
