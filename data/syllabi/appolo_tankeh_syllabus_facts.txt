@@ -1,0 +1,37 @@
+# ============================================================
+# DR. APPOLO TANKEH - COSC 369 SYLLABUS FACTS
+# Source: COSC 369 Software Engineering I syllabus
+# ============================================================
+
+COURSE|COSC 369|Software Engineering I
+
+PREREQUISITE|COSC 369|COSC 214
+PREREQUISITE|COSC 369|COSC 330
+
+INSTRUCTOR|Dr. Appolo Tankeh|COSC 369
+
+OFFICE_HOURS|Dr. Appolo Tankeh|TR|10:45 AM|1:00 PM
+
+EMAIL|Dr. Appolo Tankeh|atankeh@bowiestate.edu
+
+OFFICE|Dr. Appolo Tankeh|CS 108
+
+DESCRIPTION|COSC 369|This course introduces the student to major topics in software engineering such as requirements specification, analysis and design, testing, project management, and implementation. Additional topics include software life cycle models, UML, agile software development techniques, configuration management, change control, version control tools, object-oriented design, and project documentation.
+
+POLICY|COSC 369|attendance|Regular attendance in the class is mandatory. Students are responsible for any loss of information, assignments, and projects due to absence from class.
+
+POLICY|COSC 369|late work|There will be no make-up for missed classes, projects, assignments, and exams. One-half letter grade is deducted for an assignment for each day it is late without a documented excuse, and papers more than one week late will not be accepted.
+
+POLICY|COSC 369|devices|The use of devices is prohibited except when required for the class and explicitly stated by the professor. This includes headphones.
+
+POLICY|COSC 369|academic integrity|Academic dishonesty includes plagiarism, cheating, and other illegal or unethical behaviors in completing course work. Students must give proper credit when receiving assistance and may face penalties for academic dishonesty.
+
+POLICY|COSC 369|grading|Assignments 20 percent, Quizzes 10 percent, Mid-Term Exam 20 percent, Final Exam 20 percent, and Final Project 30 percent.
+
+EVENT|COSC 369|midterm|October 13, 2026
+
+EVENT|COSC 369|project proposal and report|October 20, 2026
+
+EVENT|COSC 369|final project presentation|November 29, 2026
+
+EVENT|COSC 369|final exam|December 21, 2026

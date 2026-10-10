@@ -1,3 +1,9 @@
 build/
 lib/
 bin/
+
+.venv/
+__pycache__/
+*.pyc
+
+prolog/generated_facts.pl
