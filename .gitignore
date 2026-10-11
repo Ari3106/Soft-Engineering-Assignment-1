@@ -7,3 +7,4 @@ __pycache__/
 *.pyc
 
 prolog/generated_facts.pl
+.DS_Store

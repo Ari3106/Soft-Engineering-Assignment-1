@@ -10,6 +10,10 @@ office-hours table from the project handout. The final deliverable is an
 instructor, produced by a Python helper the Makefile runs after the C
 program.
 
+Every push to GitLab runs a CI/CD pipeline (`.gitlab-ci.yml`) that builds
+the program, generates the workbook, and runs the Prolog demo — see
+[Continuous Integration (GitLab CI/CD)](#continuous-integration-gitlab-cicd).
+
 ## Project layout
 
 ```
@@ -41,6 +45,9 @@ make                    # builds lib/libschedule.a, then links bin/scheduler aga
 make run                # runs bin/scheduler on the sample data AND builds the .xlsx
 make clean              # removes build/, lib/, bin/, output/
 ```
+
+On macOS and Linux, where the interpreter is called `python3`, pass it to
+make: `make run PYTHON=python3` (Windows: `make run PYTHON=py`).
 
 `make` alone only compiles — nothing is written to `output/` until you run
 `make run` (or invoke the binary directly). `make docs` is kept as an alias
@@ -137,9 +144,8 @@ required). It's invoked automatically by `make run`; run it by hand on any
 matching pair of CSVs if you want to convert a different run's output
 without recompiling.
 
-
-
 ---
+
 # Prolog Knowledge and Question System
 
 ## Overview
@@ -164,7 +170,8 @@ The knowledge system allows a user to ask questions about:
 - Course meeting times
 
 Python converts the scheduler output and available syllabus information into Prolog facts. PySwip connects the Python question interface to SWI-Prolog so that Prolog can use facts and rules to answer questions.
----
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Requirements
 
 The project requires the following software:
@@ -337,6 +344,7 @@ Soft-Engineering-Assignment-1/
 ├── Makefile
 ├── requirements.txt
 ├── README.md
+├── .gitlab-ci.yml
 └── .gitignore
 ```
 
@@ -519,7 +527,7 @@ bin/scheduler
 make run PYTHON=py
 ```
 
-## Linux or GitLab
+## macOS or Linux
 
 ```bash
 make run PYTHON=python3
@@ -549,7 +557,7 @@ output/
 make knowledge PYTHON=py
 ```
 
-## Linux or GitLab
+## macOS or Linux
 
 ```bash
 make knowledge PYTHON=python3
@@ -588,7 +596,7 @@ The automatic demo tests the Python, PySwip, and Prolog connection without requi
 make demo PYTHON=py
 ```
 
-## Linux or GitLab
+## macOS or Linux
 
 ```bash
 make demo PYTHON=python3
@@ -608,7 +616,7 @@ This command is also useful for automated testing because no keyboard input is r
 make ask PYTHON=py
 ```
 
-## Linux or GitLab
+## macOS or Linux
 
 ```bash
 make ask PYTHON=python3
@@ -970,7 +978,7 @@ PYTHON ?= python
 
 This allows the Python command to be overridden without modifying the Makefile.
 
-For GitLab or another Linux environment, use:
+On macOS, Linux, or in the GitLab CI pipeline, use:
 
 ```bash
 make run PYTHON=python3
@@ -1061,6 +1069,7 @@ bin/
 __pycache__/
 *.pyc
 prolog/generated_facts.pl
+.DS_Store
 ```
 
 The `.venv` directory contains local Python packages and can be recreated using `requirements.txt`.
@@ -1073,7 +1082,102 @@ make knowledge
 
 ---
 
+# Continuous Integration (GitLab CI/CD)
+
+The repository includes a GitLab pipeline defined in `.gitlab-ci.yml`. It
+runs automatically on every push to GitLab and checks that the whole
+C → Python → Prolog chain still works on a clean machine.
+
+All jobs use the `python:3.12-bookworm` Docker image, which already
+includes `gcc` and `make`.
+
+| Stage       | Job         | What it does                                                                                                 | Artifacts                       |
+|-------------|-------------|--------------------------------------------------------------------------------------------------------------|---------------------------------|
+| `build`     | `build`     | `make all` with `-Werror` (any compiler warning fails the build); checks `lib/libschedule.a` and `bin/scheduler` exist | `lib/`, `bin/`                  |
+| `schedule`  | `schedule`  | Installs `openpyxl`, runs `make run`, checks all four output files are non-empty, prints the report          | `output/` (incl. the `.xlsx`)   |
+| `knowledge` | `knowledge` | Installs SWI-Prolog and `requirements.txt`, checks PySwip, runs `make demo`                                  | `prolog/generated_facts.pl`     |
+
+`make demo` is used instead of `make ask` because the interactive question
+system waits for keyboard input, which a CI job cannot provide.
+
+## Pushing to GitLab and GitHub
+
+The project is kept on two remotes:
+
+```bash
+git remote -v
+# origin  https://github.com/Ari3106/Soft-Engineering-Assignment-1.git
+# gitlab  https://gitlab.com/cs369-group/soft-engineering-assignment-2.git
+```
+
+Push to both after committing:
+
+```bash
+git push origin Mock    # GitHub (no pipeline runs here)
+git push gitlab Mock    # GitLab (starts the pipeline)
+```
+
+To add the GitLab remote on a new clone:
+
+```bash
+git remote add gitlab https://gitlab.com/cs369-group/soft-engineering-assignment-2.git
+```
+
+Neither site accepts your account password for Git over HTTPS. Use a
+personal access token as the password instead:
+
+- **GitLab:** avatar → Edit profile → Access tokens → Generate token →
+  Legacy token, with the `read_repository` and `write_repository` scopes.
+- **GitHub:** Settings → Developer settings → Personal access tokens →
+  Tokens (classic), with the `repo` scope. Or run `gh auth login`.
+
+## Viewing results
+
+1. In the GitLab project, open **Build → Pipelines**.
+2. Click a pipeline to see its stages, then click a job to read its log.
+3. To download the generated files, click the download button on the
+   pipeline row and choose **`schedule:archive`**. This gives you the
+   `output/` folder with `faculty_schedule.xlsx`. They are also listed
+   under **Build → Artifacts**.
+
+To re-run without pushing: **Build → Pipelines → New pipeline**, pick the
+branch, and click **New pipeline**.
+
+## Running the same checks locally
+
+```bash
+make clean
+make all CFLAGS="-Wall -Wextra -Werror -std=c11 -Iinclude -g"
+make run PYTHON=python3
+make demo PYTHON=python3     # requires SWI-Prolog
+```
+
+---
+
 # Troubleshooting
+
+## GitLab push fails with `HTTP Basic: Access denied`
+
+GitLab rejected the password. Create a personal access token (see
+[Pushing to GitLab and GitHub](#pushing-to-gitlab-and-github)), clear the
+saved credential, and push again, pasting the token as the password:
+
+```bash
+printf "protocol=https\nhost=gitlab.com\n\n" | git credential-osxkeychain erase   # macOS
+git push -u gitlab Mock
+```
+
+---
+
+## Pipeline fails immediately with no jobs
+
+If **Build → Jobs** shows 0 jobs and the Pipelines page says *"Before you
+can run pipelines, we need to verify your account"*, it is not a problem
+with `.gitlab-ci.yml`. Free gitlab.com accounts must verify their identity
+before they can use GitLab's shared runners. Click **Verify my account**,
+then start a **New pipeline**.
+
+---
 
 ## `No module named pip`
 
@@ -1232,3 +1336,5 @@ ask_questions.py
 ```
 
 This allows the original scheduler to continue operating as a C program while adding a Prolog-based knowledge and question system.
+
+The GitLab CI/CD pipeline runs this entire chain on every push, so a change that breaks the C build, the Excel generation, or the Prolog knowledge base is caught right away.
