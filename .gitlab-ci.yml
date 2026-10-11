@@ -1,0 +1,87 @@
+# ============================================================================
+# GitLab CI/CD pipeline - COSC 369 Project 1
+# Faculty Teaching & Office-Hours Scheduler
+#
+# Stages:
+#   build      Compile the static library (lib/libschedule.a) and bin/scheduler
+#   schedule   Run the scheduler on the sample data and build the Excel workbook
+#   knowledge  Generate the Prolog knowledge base and run the PySwip demo
+#
+# python:3.12-bookworm (the full, non-slim image) already ships gcc and make,
+# so one image covers the C build and the Python helpers.
+# ============================================================================
+
+image: python:3.12-bookworm
+
+stages:
+  - build
+  - schedule
+  - knowledge
+
+variables:
+  PYTHON: python
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  key: pip-$CI_COMMIT_REF_SLUG
+  paths:
+    - .cache/pip
+
+
+# --- build: compile library + executable ------------------------------------
+
+build:
+  stage: build
+  script:
+    - make clean
+    - make all CFLAGS="-Wall -Wextra -Werror -std=c11 -Iinclude -g"
+    - test -f lib/libschedule.a
+    - test -x bin/scheduler
+  artifacts:
+    paths:
+      - lib/
+      - bin/
+    expire_in: 1 week
+
+
+# --- schedule: run scheduler and produce CSV / text / Excel output ----------
+
+schedule:
+  stage: schedule
+  needs: [build]
+  before_script:
+    - python -m pip install openpyxl
+  script:
+    - rm -rf output
+    - make run PYTHON=$PYTHON
+    - test -s output/schedule_report.txt
+    - test -s output/class_schedule.csv
+    - test -s output/office_hours.csv
+    - test -s output/faculty_schedule.xlsx
+    - cat output/schedule_report.txt
+  artifacts:
+    name: "faculty-schedule-$CI_COMMIT_SHORT_SHA"
+    paths:
+      - output/
+    expire_in: 1 month
+
+
+# --- knowledge: build Prolog facts and run demo questions via PySwip --------
+
+knowledge:
+  stage: knowledge
+  needs: [build]
+  before_script:
+    - apt-get update -qq
+    - apt-get install -y -qq --no-install-recommends swi-prolog-nox
+    - swipl --version
+    - python -m pip install -r requirements.txt
+    - python -c "from pyswip import Prolog; print(list(Prolog().query('X = 5')))"
+  script:
+    - make demo PYTHON=$PYTHON
+    - test -s prolog/generated_facts.pl
+  artifacts:
+    paths:
+      - prolog/generated_facts.pl
+      - output/
+    expire_in: 1 week
